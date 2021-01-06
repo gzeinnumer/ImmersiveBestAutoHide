@@ -24,15 +24,15 @@
 - `style.xml`
 ```xml
 <style name="Theme.VeryFullScreen.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
-    <item name="android:statusBarColor">@android:color/transparent</item>
-    <item name="colorPrimary">@android:color/holo_red_light</item>
-    <item name="colorPrimaryVariant">@android:color/holo_green_light</item>
-    <item name="colorOnPrimary">@android:color/holo_blue_light</item>
-    <item name="colorSecondary">@android:color/holo_red_light</item>
-    <item name="colorSecondaryVariant">@android:color/holo_green_light</item>
-    <item name="colorOnSecondary">@android:color/holo_blue_light</item>
-    <item name="android:fitsSystemWindows">false</item>
-    <item name="android:navigationBarColor">@color/purple_700</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="colorPrimary">@android:color/holo_red_light</item>
+        <item name="colorPrimaryVariant">@android:color/holo_green_light</item>
+        <item name="colorOnPrimary">@android:color/holo_blue_light</item>
+        <item name="colorSecondary">@android:color/holo_red_light</item>
+        <item name="colorSecondaryVariant">@android:color/holo_green_light</item>
+        <item name="colorOnSecondary">@android:color/holo_blue_light</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:navigationBarColor">@color/teal_200</item>
 </style>
 ```
 
@@ -132,6 +132,7 @@ public class MainActivity extends BaseActivityFull {
     android:id="@+id/parent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/purple_700"
     tools:context=".MainActivity">
 
     <EditText
