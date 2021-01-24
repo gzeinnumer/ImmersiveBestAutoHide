@@ -2,7 +2,7 @@
 
 |<img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example2.jpg" width="200"/>|<img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example3.jpg" width="200"/>|<img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example4.jpg" width="200"/>|
 |---|---|---|
-|Samsung A51|Vivo 1719|Samsung A51|
+|Samsung A51(White Nav Bar)|Vivo 1719|Samsung A51(Black Nav Bar)|
 
 - `Manifest.xml`
 ```xml
