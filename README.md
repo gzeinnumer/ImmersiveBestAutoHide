@@ -1,9 +1,5 @@
 # ImmersiveBestAutoHide
 
-<p align="center">
-  <img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example2.jpg" width="200"/>
-</p>
-
 |<img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example2.jpg" width="200"/>|<img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example3.jpg" width="200"/>|
 |---|---|
 |Samsung A51|Vivo 1719|
@@ -45,7 +41,7 @@
 ```
 
 <p align="center">
-  <img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example1.jpg" width="200"/>
+  <img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example1.jpg"/>
 </p>
 
 - `BaseAcivity.java`
