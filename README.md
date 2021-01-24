@@ -1,8 +1,8 @@
 # ImmersiveBestAutoHide
 
-|<img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example2.jpg" width="200"/>|<img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example3.jpg" width="200"/>|
-|---|---|
-|Samsung A51|Vivo 1719|
+|<img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example2.jpg" width="200"/>|<img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example3.jpg" width="200"/>|<img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example4.jpg" width="200"/>|
+|---|---|---|
+|Samsung A51|Vivo 1719|Samsung A51|
 
 - `Manifest.xml`
 ```xml
@@ -37,6 +37,7 @@
     <item name="colorOnSecondary">@android:color/holo_blue_light</item>
     <item name="android:fitsSystemWindows">false</item>
     <item name="android:navigationBarColor">@color/teal_200</item>
+    <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
 </style>
 ```
 
@@ -109,6 +110,11 @@ public class BaseActivityFull extends BaseActivity{
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             //enable this tho maker icon status bar become black
             decore+= View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+        }
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            //enable this tho maker icon Navigation bar become black
+            decore +=  View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR;
         }
 
         getWindow().getDecorView().setSystemUiVisibility(decore);

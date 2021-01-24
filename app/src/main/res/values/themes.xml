@@ -25,5 +25,6 @@
         <item name="colorOnSecondary">@android:color/holo_blue_light</item>
         <item name="android:fitsSystemWindows">false</item>
         <item name="android:navigationBarColor">@color/teal_200</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
     </style>
 </resources>

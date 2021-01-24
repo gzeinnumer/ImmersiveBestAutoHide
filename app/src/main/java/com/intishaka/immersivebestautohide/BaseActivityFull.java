@@ -57,7 +57,12 @@ public class BaseActivityFull extends BaseActivity{
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             //enable this tho maker icon status bar become black
-            decore+= View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+            decore += View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+        }
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            //enable this tho maker icon Navigation bar icon become black
+            decore += View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR;
         }
 
         getWindow().getDecorView().setSystemUiVisibility(decore);
