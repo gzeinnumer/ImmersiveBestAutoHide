@@ -1,5 +1,13 @@
 # ImmersiveBestAutoHide
 
+<p align="center">
+  <img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example2.jpg" width="200"/>
+</p>
+
+|<img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example2.jpg" width="200"/>|<img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example3.jpg" width="200"/>|
+|---|---|
+|Samsung A51|Vivo 1719|
+
 - `Manifest.xml`
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -24,17 +32,21 @@
 - `style.xml`
 ```xml
 <style name="Theme.VeryFullScreen.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="android:statusBarColor">@android:color/white</item>
-        <item name="colorPrimary">@android:color/holo_red_light</item>
-        <item name="colorPrimaryVariant">@android:color/holo_green_light</item>
-        <item name="colorOnPrimary">@android:color/holo_blue_light</item>
-        <item name="colorSecondary">@android:color/holo_red_light</item>
-        <item name="colorSecondaryVariant">@android:color/holo_green_light</item>
-        <item name="colorOnSecondary">@android:color/holo_blue_light</item>
-        <item name="android:fitsSystemWindows">false</item>
-        <item name="android:navigationBarColor">@color/teal_200</item>
+    <item name="android:statusBarColor">@android:color/white</item>
+    <item name="colorPrimary">@android:color/holo_red_light</item>
+    <item name="colorPrimaryVariant">@android:color/holo_green_light</item>
+    <item name="colorOnPrimary">@android:color/holo_blue_light</item>
+    <item name="colorSecondary">@android:color/holo_red_light</item>
+    <item name="colorSecondaryVariant">@android:color/holo_green_light</item>
+    <item name="colorOnSecondary">@android:color/holo_blue_light</item>
+    <item name="android:fitsSystemWindows">false</item>
+    <item name="android:navigationBarColor">@color/teal_200</item>
 </style>
 ```
+
+<p align="center">
+  <img src="https://github.com/gzeinnumer/ImmersiveBestAutoHide/blob/master/preview/example1.jpg" width="200"/>
+</p>
 
 - `BaseAcivity.java`
 ```java
