@@ -38,6 +38,7 @@
     <item name="android:fitsSystemWindows">false</item>
     <item name="android:navigationBarColor">@color/teal_200</item>
     <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+    <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
 </style>
 ```
 
@@ -106,6 +107,10 @@ public class BaseActivityFull extends BaseActivity{
 //                | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
                 // Hide the nav bar and status bar
                 | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION;
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
+            getWindow().setStatusBarColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimary));
+        }
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             //enable this tho maker icon status bar become black
